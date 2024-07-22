@@ -1,2 +1,2 @@
-# Foto-raf-Galerisi
+# Fotograf-Galerisi
 OğuzunDüşü
