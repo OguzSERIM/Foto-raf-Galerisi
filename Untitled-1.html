@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resim Galerisi</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-body-secondary">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Men�</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Anasayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Linkler</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <br />
+
+      <div
+        id="carouselExampleFade"
+        class="card carousel slide carousel-fade d-flex bg-body-secondary border border-secondary border-2"
+        data-info="AI Teknolojisi ile �retilmi� g�rseller"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpg" class="d-block w-100 h-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100 h-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" class="d-block w-100 h-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <hr />
+
+      <div class="container row">
+        <div
+          class="card img-outline-secondary bg-secondary-subtle col-4"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="width: 20rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="4.jpg" class="card-img-top" alt="KURGUSAL EVREN" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card img-outline-secondary bg-secondary-subtle col-4"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="width: 20rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="5.jpg" class="card-img-top" alt="SANATSAL" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal2"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="5.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card img-outline-secondary bg-secondary-subtle col-4"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="width: 20rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="6.jpg" class="card-img-top" alt="KAVRAMSAL" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal3"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="6.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card img-outline-secondary bg-secondary-subtle col-4"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="width: 19rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="7.jpg" class="card-img-top" alt="SOYUT MAKYAJ" />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal4"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="7.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <hr />
+      </div>
+
+      <div class="container row">
+        <div
+          class="card col-2"
+          style="width: 18rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="8.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Vostro potendo tal quella essaudisce e se credere le come alcun
+              impetrata il in niuna mortale in intendo non intendo in quale di
+              speranza discerniamo fatica viviamo in pi� come quel ammirabile di
+              nostro le priegano benignita ingannati son pietosa da spezial i
+              viviamo che le cose come noi quella giudicio noi novellare esse
+              trapassare incominciare come nostra vostro porgere liberalita
+              divina procuratori quale cominciamento la furon modo oppinione
+              fosse cos� avvedimento beati suo lui infiniti credere accio
+              potendo il cose e trapassare santo e maesta che cospetto
+              discerniamo mortali pietosa che ancora il uomini di maesta ma s�
+              fa
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card col-4"
+          style="width: 36rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="9.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Est duo sanctus aliquip facilisis lorem et at erat option nonumy
+              sadipscing vero eos et elitr est illum et aliquam
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card col-4"
+          style="width: 25rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="10.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Libera iomvorte boaton min li kaj signojn volas decidus la iros
+              kiujn nenial la mi dankon vi la farigxos la malbonan peron sed
+              dekduhore mejlojn sed sxtofoj sed knabo kiun ne min la sed vidi ni
+              sur alteron tagon povis skoto mi mejlojn surterigxis monon mi ili
+              kiel mi kiuj
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container row">
+        <div
+          class="card col-2"
+          style="width: 48rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="8.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Vostro potendo tal quella essaudisce e se credere le come alcun
+              impetrata il in niuna mortale in intendo non intendo in quale di
+              speranza discerniamo fatica viviamo in pi� come quel ammirabile di
+              nostro le priegano benignita ingannati son pietosa da spezial i
+              viviamo che le cose come noi quella giudicio noi novellare esse
+              trapassare incominciare come nostra vostro porgere liberalita
+              divina procuratori quale cominciamento la furon modo oppinione
+              fosse cos� avvedimento beati suo lui infiniti credere accio
+              potendo il cose e trapassare santo e maesta che cospetto
+              discerniamo mortali pietosa che ancora il uomini di maesta ma s�
+              fa
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card col-4"
+          style="width: 16rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="9.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Est duo sanctus aliquip facilisis lorem et at erat option nonumy
+              sadipscing vero eos et elitr est illum et aliquam
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card col-4"
+          style="width: 15rem"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="10.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Libera iomvorte boaton min li kaj signojn volas decidus la iros
+              kiujn nenial la mi dankon vi la farigxos la malbonan peron sed
+              dekduhore mejlojn sed sxtofoj sed knabo kiun ne min la sed vidi ni
+              sur alteron tagon povis skoto mi mejlojn surterigxis monon mi ili
+              kiel mi kiuj
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <hr />
+
+      <div class="container row">
+        <button
+          type="button"
+          class="btn btn-outline-secondary col-8"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          KURGUSAL EVREN
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-outline-secondary col-4"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal2"
+        >
+          SANATSAL
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal2"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="5.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <br />
+
+        <button
+          type="button"
+          class="btn btn-outline-secondary col-6"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal3"
+        >
+          KAVRAMSAL
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal3"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="6.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          class="btn btn-outline-secondary col-6"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal4"
+        >
+          SOYUT MAKYAJ
+        </button>
+
+        <div
+          class="modal fade"
+          id="exampleModal4"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Modal title
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <img src="7.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br />
+        <hr />
+      </div>
+
+      <div
+        class="container row"
+        data-info="AI Teknolojisi ile �retilmi� g�rseller"
+      >
+        <div
+          class="card col-6"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="5.jpg" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div
+          class="card col-6"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="4.jpg" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container row">
+        <div
+          class="card col-4"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="7.jpg" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div
+          class="card col-4"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="10.jpg" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div
+          class="card col-4"
+          data-info="AI Teknolojisi ile �retilmi� g�rseller"
+        >
+          <img src="1.jpg" class="card-img-top" alt="..." />
+
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <br /><br /><br /><br /><br />
+
+      <div class="input">
+        <label for="floatingInputDisabled">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInputDisabled"
+          placeholder="name@example.com"
+          disabled
+        />
+      </div>
+      <div class="input">
+        <label for="floatingTextareaDisabled">Comments</label>
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextareaDisabled"
+          disabled
+        ></textarea>
+      </div>
+      <div class="input">
+        <label for="floatingTextarea2Disabled">Comments</label>
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextarea2Disabled"
+          style="height: 100px"
+          disabled
+        >
+Disabled textarea with some text inside</textarea
+        >
+      </div>
+      <div class="input">
+        <label for="floatingSelectDisabled">Works with selects</label>
+        <select
+          class="form-select"
+          id="floatingSelectDisabled"
+          aria-label="Floating label disabled select example"
+          disabled
+        >
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">� 2024 Company, Inc</p>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
